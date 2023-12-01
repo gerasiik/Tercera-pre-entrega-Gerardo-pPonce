@@ -1,0 +1,11 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="container principal">
+    <h1>Busqueda</h1>
+    <form action="{% url 'buscar_artista' %}" method="GET">
+        <input type="text" name="artista" id="artista">
+        <input type="submit" value="buscar-artista"  class="btn btn-primary">
+    </form>
+</div>
+{% endblock %}

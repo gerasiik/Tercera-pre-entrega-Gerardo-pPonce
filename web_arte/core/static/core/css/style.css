@@ -1,0 +1,15 @@
+.card{
+    margin-top: 20px;
+}
+
+.cuerpo{
+    width: 900px !important;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    margin-top: 30px;
+}
